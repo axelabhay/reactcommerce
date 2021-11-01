@@ -1,3 +1,13 @@
+# Clone the repository
+git clone https://github.com/axelabhay/reactcommerce
+
+# Checkout develop branch
+git checkout develop
+
+# It is a Ddev project, hence append 'ddev' while executing the commands wherever applicable
+ddev start
+composer install
+
 # There is some issue with installing drupal with existing config, 
 # hence perform default site installation first
 drush si
@@ -21,6 +31,9 @@ drush uli
   - Select Scopes as 'Consumer React'
   - Save
 
-In postman use 
+# Postman collection
+https://drive.google.com/file/d/1b7woXkicy3FQyT0aYLyLlV2qxT5pn0Cf/view?usp=sharing
+
+# In postman, use 
 - client_id as UUID against the consumer 'Consumer React' at admin/config/services/consumer
 - client_secret as the password set for the 'Consumer React' consumer
