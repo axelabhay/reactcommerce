@@ -1,0 +1,14 @@
+uuid: 966edb27-2cfd-421a-a8e4-c46c3fed1306
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.consumer_react
+  module:
+    - user
+id: user_remove_role_action.consumer_react
+label: 'Remove the Consumer React role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: consumer_react

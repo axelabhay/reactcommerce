@@ -1,0 +1,13 @@
+uuid: 172a756b-d525-4b6f-bd5b-bf20c997b734
+langcode: en
+status: true
+dependencies: {  }
+id: consumer_react
+label: 'Consumer React'
+weight: 3
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'delete any article content'
+  - 'delete own article content'
+  - 'edit own article content'

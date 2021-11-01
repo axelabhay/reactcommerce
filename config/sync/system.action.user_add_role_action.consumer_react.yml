@@ -1,0 +1,14 @@
+uuid: 25150f11-22f1-4dbc-a958-c2d33b3bd9e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.consumer_react
+  module:
+    - user
+id: user_add_role_action.consumer_react
+label: 'Add the Consumer React role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: consumer_react

@@ -1,0 +1,22 @@
+uuid: d84d1c61-be0b-49ae-9381-de4cb6bbacd1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_example_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: react_example_theme_powered
+theme: react_example_theme
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
